@@ -3,7 +3,6 @@ import os
 
 app = Flask(__name__, static_folder='Game')
 
-# Function to add necessary headers
 def add_headers(response):
     response.headers['Cross-Origin-Embedder-Policy'] = 'require-corp'
     response.headers['Cross-Origin-Opener-Policy'] = 'same-origin'
