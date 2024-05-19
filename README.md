@@ -5,7 +5,7 @@ With Flask, we create a web server that will serve the files of the Godot 4 appl
 ## Prerequisite
 `Docker`
 ## How use
-Open your terminal and paste `docker build -t  game:v1 https://github.com/celsoita/My_first_Game.git"`
+Open your terminal and paste `docker build -t  game:v1 https://github.com/celsoita/My_first_Game.git`
 
 Check if image `game:v1` was created with command `docker images` 
 
