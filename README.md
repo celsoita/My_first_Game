@@ -1,5 +1,7 @@
 # Containerized Game
 In this project i maded a simple game in godot and containerized with docker
+## Status game
+In progress
 ## How it work
 With Flask, we create a web server that will serve the files of the Godot 4 application
 ## Prerequisite
