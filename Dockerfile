@@ -10,9 +10,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copia tutti i file del progetto
 COPY . .
-
+# prende i certificati
+COPY key.pem /etc/ssl/certs/key.pem
+COPY cert.pem /etc/ssl/certs/cert.pem
 # Espone la porta su cui il server web sarà in ascolto
-EXPOSE 8080
+EXPOSE 443
 
 # Comando per eseguire l'applicazione
 CMD [ "python", "app.py" ]

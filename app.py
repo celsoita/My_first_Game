@@ -18,6 +18,5 @@ def serve_index():
 def serve_file(path):
     response = make_response(send_from_directory(app.static_folder, path))
     return add_headers(response)
-
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=443, ssl_context=('/etc/ssl/certs/cert.pem', '/etc/ssl/certs/key.pem'))
