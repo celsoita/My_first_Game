@@ -1,5 +1,5 @@
 # Containerized Game
-In this project i maded a simple game in godot and containerized with docker
+In this project i made a simple game in godot and containerized with docker
 ## Status game
 In progress
 ## How it work
