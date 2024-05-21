@@ -21,3 +21,10 @@ If you're using WSL, your localhost is different to your real machine so check y
 ERROR: failed to solve: python:3.9-slim: failed to resolve source metadata for docker.io/library/python:3.9-slim: failed to authorize: failed to fetch anonymous token: Get "https://auth.docker.io/token?scope=repository%3Alibrary%2Fpython%3Apull&service=registry.docker.io": dial tcp: lookup auth.docker.io on 172.29.64.1:53: read udp 172.29.70.106:47068->172.29.64.1:53: i/o timeout
 
 ### Solution: do manually `docker pull python:3.9-slim`
+
+
+# Command in game
+## `arrows` for movement
+## `z` for fight
+## `spacebar` for jump
+## `ctrl` for slide
